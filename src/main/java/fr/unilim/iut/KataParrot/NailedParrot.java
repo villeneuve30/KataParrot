@@ -1,9 +1,10 @@
 package fr.unilim.iut.KataParrot;
 
-public class EuropeanParrot extends Parrot{
-
+public class NailedParrot extends Parrot{
+	
 	@Override
 	public double getSpeed() {
-		return BASE_SPEED;
+		return 0.0;
 	}
+
 }

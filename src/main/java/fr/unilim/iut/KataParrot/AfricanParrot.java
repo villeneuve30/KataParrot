@@ -2,11 +2,10 @@ package fr.unilim.iut.KataParrot;
 
 public class AfricanParrot extends Parrot{
 	
-	protected static final double LOAD_FACTOR = 9.0;
-	protected int numberOfCoconuts = 0;
+	private static final double LOAD_FACTOR = 9.0;
+	private int numberOfCoconuts = 0;
 
 	public AfricanParrot(int numberOfCoconuts) {
-		super(ParrotTypeEnum.AFRICAN, 0, false);
 		this.numberOfCoconuts = numberOfCoconuts;
 	}
 	
